@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Navbar -->
+      <nav class="navbar navbar-light bg-theme justify-content-between">
+        <a href="#"  class="navbar-brand">
+          <img height="45" src="assets/img/owl.png" alt="">
+        </a>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2 search-style" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </nav>
+
+      <!-- Sidebar -->
+      <div id="sidebar" class="left">
+        <div class="sidebar-container">
+          <div class="profile-area">
+            <div class="profile-banner" style="background-image: url(assets/img/banner.png);">
+
+            </div>
+            <div class="profile-info">
+              <a href="#"><img src="assets/img/profile.png" alt=""></a>
+              <h4 class="collapse-text">Betül Uzun</h4>
+            </div>
+          </div>
+          <div class="sidebar-menu">
+            <ul id="menu-list">
+              <li class="menu-item active"><a href="#">
+                <img src="assets/img/icons/home.svg" alt="" title="Home">
+                <span class="collapse-text">Home</span>
+              </a></li>
+              <li class="menu-item"><a href="#">
+                <img src="assets/img/icons/profile.svg" alt="" title="Profile">
+                <span class="collapse-text">Profile</span>
+              </a></li>
+              <li class="menu-item"><a href="#">
+                <img src="assets/img/icons/courses.svg" alt="" title="Courses">
+                <span class="collapse-text">Courses</span>
+              </a></li>
+              <li class="menu-item"><a href="#">
+                <img src="assets/img/icons/registration.svg" alt="" title="Registration">
+                <span class="collapse-text">Registration</span>
+              </a></li>
+              <li class="menu-item"><a href="#">
+                <img src="assets/img/icons/history.svg" alt="" title="History">
+                <span class="collapse-text">History</span>
+              </a></li>
+              <li class="menu-item"><a href="#">
+                <img src="assets/img/icons/messages.svg" alt="" title="Messages">
+                <span class="collapse-text">Messages</span>
+              </a></li>
+              <li class="menu-item"><a href="#">
+                <img src="assets/img/icons/referrals.svg" alt="" title="Referrals">
+                <span class="collapse-text">Referrals</span>
+              </a></li>
+              <li class=""><a href="#" id="toggle-sidebar">
+                <img src="assets/img/icons/collapse.svg" alt="" title="Collapse">
+                <span class="collapse-text">Collapse</span>
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="content" class="">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <div id="chart" style="min-width: 100%; "></div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+
+  </body>
+</html>
